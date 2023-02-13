@@ -16,8 +16,12 @@ Output:
 The program outputs the degree of profanity for each sentence in the file, where the degree of profanity is calculated as the ratio of the number of offensive words to the total number of words in the sentence.
 
 Assumptions:
-The file containing the Twitter tweets is a plain text file with one tweet per line.
-The specified words indicating offensive language are case-insensitive.
+
+The input file contains one tweet per line.
+The program uses a simple approach to calculate the degree of profanity by counting the number of slurs in each tweet and dividing by the number of words in the tweet.
+The program converts the tweets to lowercase and removes non-alphanumeric characters for consistency.
+The program assumes that the list of slurs is provided as a Python list and is case-insensitive.
+The program returns a list of tuples, where each tuple contains a tweet and its degree of profanity.
 
 Contributions:
 Contributions are welcome! If you find a bug or want to suggest a feature, please open an issue or a pull request.
