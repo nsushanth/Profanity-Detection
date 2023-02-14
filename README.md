@@ -16,7 +16,7 @@ Output:
 The program outputs the degree of profanity for each sentence in the file, where the degree of profanity is calculated as the ratio of the number of offensive words to the total number of words in the sentence.
 
 Assumptions:
-
+I have created a dummy tweets.txt file with less number of tweets.
 The input file contains one tweet per line.
 The program uses a simple approach to calculate the degree of profanity by counting the number of slurs in each tweet and dividing by the number of words in the tweet.
 The program converts the tweets to lowercase and removes non-alphanumeric characters for consistency.
